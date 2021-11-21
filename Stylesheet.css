@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	color: white;
+	width: 100%;
+}
+
+.row1 {
+	float: left;
+}
+
+.user {
+	float: right;
+	padding-right: 25px;
+}
+
+.user p {
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+}
+
+.user a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.user a:hover {
+	text-decoration: underline;
+	color: white;
+	font-size: 15px;
+}
+
+.row2 {
+	display: flex;
+	flex-direction: row;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.column1 {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+}
+
+.column2 {
+	width: 15%;
+	float: left;
+}
+
+.subrow1 {
+	padding-bottom: 10px;
+	display: inline;
+	overflow: hidden;
+}
+
+.subrow1 img {
+	width: 25%;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+
+.subrow1 input[type=text] {
+	padding-left: 10px;
+	width: 60%;
+	line-height: 45px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.subrow1 button {
+	border: none;
+	width: 5%;
+	line-height: 45px;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+}
+
+.cart {
+	padding-top: 25%;
+	text-align: center;
+}
+
+.cart a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.header li {
+	float: left;
+}
+
+.header li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.header li a:hover {
+	background-color: #111;
+}
+
+.header .active {
+	text-decoration: underline;
+}
+
+.main {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	background-color: #333;
+	padding-left: 75px;
+	padding-right: 75px;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+}
+
+.footer-column1 {
+	width: 33.33%;
+}
+
+.footer-column2 {
+	width: 33.33%;
+}
+
+.footer-column2 a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-column2 a:hover {
+	text-decoration: underline;
+}
+
+.footer-column3 {
+	width: 33.33%;
+}
+
+.footer-column3 a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer-column3 a:hover{
+	text-decoration: underline;
+}
